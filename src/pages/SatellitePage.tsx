@@ -3,7 +3,7 @@ import DashboardLayout from '@/components/DashboardLayout';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Satellite, Globe, AlertTriangle } from 'lucide-react';
-import { SatelliteDetection } from '../../satellite-detection';
+import SatelliteDetection from '../../satellite-detection/SatelliteDetection';
 
 const SatellitePage = () => {
   return (
